@@ -1,9 +1,9 @@
-package hello.core.dicount;
+package hello.core.discount;
 
 import hello.core.member.Grade;
 import hello.core.member.Member;
 
-public class RateDisountPolicy implements DiscountPolicy {
+public class RateDiscountPolicy implements DiscountPolicy {
 
     private int discountPercent = 10;
 
