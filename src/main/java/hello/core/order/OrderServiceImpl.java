@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class OrderServiceImpl implements OrderService {
+
     private final MemberRepository memberRepository;
     private final DiscountPolicy discountPolicy;
 
@@ -16,6 +17,8 @@ public class OrderServiceImpl implements OrderService {
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;
     }
+
+
 
 //    private final MemberRepository memberRepository = new MemoryMemberRepository();
 //    private final DiscountPolicy discountPolicy = new RateDisountPolicy();
