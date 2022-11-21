@@ -29,7 +29,7 @@ public class AllBeanTest {
         assertThat(discountPrice).isEqualTo(1000);
 
         int rateDiscountPrice = discountService.discount(member, 20000, "rateDiscountPolicy");
-        assertThat(discountPrice).isEqualTo(2000);
+        assertThat(rateDiscountPrice).isEqualTo(2000);
     }
 
     static class DiscountService {
