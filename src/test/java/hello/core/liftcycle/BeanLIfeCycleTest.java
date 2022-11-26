@@ -14,6 +14,7 @@ public class BeanLIfeCycleTest {
         ac.close();
     }
 
+
     @Configuration
     static class LifeCycleConfig{
         @Bean
