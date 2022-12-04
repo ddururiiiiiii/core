@@ -16,7 +16,6 @@ public class LogDemoController {
     private final LogDemoService logDemoService;
     private final MyLogger myLogger;
 
-
     @RequestMapping("log-demo")
     @ResponseBody
     public String logDemo(HttpServletRequest request){
