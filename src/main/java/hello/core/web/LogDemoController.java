@@ -13,7 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 @RequiredArgsConstructor
 public class LogDemoController {
 
-
     private final LogDemoService logDemoService;
     private final MyLogger myLogger;
     @RequestMapping("log-demo")
